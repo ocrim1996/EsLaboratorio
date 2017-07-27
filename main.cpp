@@ -1,9 +1,17 @@
-#include <iostream>
-#include "File.h"
+#include <QApplication>
+#include "MainWindow.h"
 
 using namespace std;
 
-int main() {
+int main(int argc, char *argv[]) {
 
-    return 0;
+    QApplication app(argc, argv);
+
+    LoadResources loader;
+
+    MainWindow mainWindow(&loader);
+    mainWindow.show();
+
+    return app.exec();
+
 }

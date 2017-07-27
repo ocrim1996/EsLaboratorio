@@ -43,6 +43,7 @@ public:
         return filesize;
     }
 
+
 private:
     list<Observer*> observers;
     int numberOfResources;

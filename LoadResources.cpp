@@ -37,6 +37,7 @@ void LoadResources::load(std::vector<const char *> filenames) throw(runtime_erro
     }
 }
 
+
 void LoadResources::handleFile(const char * itr) {
     try {
 

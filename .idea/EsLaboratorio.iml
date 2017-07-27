@@ -7,17 +7,19 @@
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/src/gtest-all.cc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/cmake/internal_utils.cmake" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/TestLoadResources.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/TestFile.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/TestLoadResources.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/runAllTests.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/TestFile.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Subject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoadResources.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Subject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoadResources.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MainWindow.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/File.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/File.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MainWindow.h" isTestSource="false" />
     </content>
     <content url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/EsLaboratorio-80a14efc/80a14efc/Debug/EsLaboratorio_automoc.cpp">
       <sourceFolder url="file://$USER_HOME$/Library/Caches/CLion2016.1/cmake/generated/EsLaboratorio-80a14efc/80a14efc/Debug/EsLaboratorio_automoc.cpp" isTestSource="false" />
