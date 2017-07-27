@@ -31,10 +31,25 @@ public:
         return numberOfResources;
     }
 
+    bool didLoadFile() const {
+        return loaded;
+    }
+
+    const QString &getFilename() const {
+        return filename;
+    }
+
+    int getFilesize() const {
+        return filesize;
+    }
+
 private:
     list<Observer*> observers;
     int numberOfResources;
 
+    bool loaded;
+    QString filename;
+    int filesize;
 
 };
 

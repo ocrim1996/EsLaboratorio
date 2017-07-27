@@ -41,11 +41,18 @@ void LoadResources::handleFile(const char * itr) {
     try {
 
         File file(itr);
+
+        filename = QString(itr);
+        filesize = file.getSizeInBytes();
+        loaded = true;
         notifyObservers();
 
     } catch(runtime_error& e) {
 
         cerr << e.what() << endl << endl;
+
+        filename = QString(itr);
+        loaded = false;
         notifyObservers();
 
     } catch(...) {
