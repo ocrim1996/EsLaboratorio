@@ -11,7 +11,7 @@ add_subdirectory(test)
 
 find_package(Qt5Widgets REQUIRED)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp Observer.h Subject.h)
 add_executable(EsLaboratorio main.cpp)
 add_library(core ${SOURCE_FILES})
 target_link_libraries(core Qt5::Widgets)
