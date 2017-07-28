@@ -40,7 +40,7 @@ private:
     QProgressBar * progressBar;
     QTextEdit * text;
 
-
+    QLabel * linkToGitHub;
     QLabel * title;
     QLabel * name;
 };

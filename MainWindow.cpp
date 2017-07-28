@@ -17,6 +17,10 @@ MainWindow::MainWindow(LoadResources *resources_, QWidget *parent) : QMainWindow
     name->setGeometry(QRect(QPoint(15, 15), QSize(200, 30)));
     name->setAlignment(Qt::AlignLeft);
 
+    linkToGitHub = new QLabel("<a href=\"https://github.com/ocrim1996/EsLaboratorio\">Link GitHub</a>", this);
+    linkToGitHub->setOpenExternalLinks(true);
+    linkToGitHub->setGeometry(QRect(QPoint(485, 15), QSize(100, 30)));
+    linkToGitHub->setAlignment(Qt::AlignRight);
 
     title = new QLabel("Classe che carica file di risorse e aggiorna una progress bar (con QT).", this);
     title->setGeometry(QRect(QPoint(100, 60), QSize(400, 100)));
@@ -79,7 +83,17 @@ void MainWindow::loadResources() {
 
     filenames.push_back("logo.png");
     filenames.push_back("ciao.jpg");
-
+    filenames.push_back("Jordan.png");
+    filenames.push_back("Pizza.jpeg");
+    filenames.push_back("Fiore.jpg");
+    filenames.push_back("Coldplay.jpg");
+    filenames.push_back("Canzone.mp3");
+    filenames.push_back("Firenze.jpg");
+    filenames.push_back("File.pdf");
+    filenames.push_back("Python.py");
+    filenames.push_back("Documento.tex");
+    filenames.push_back("Tavolo.jpg");
+    filenames.push_back("Word.docx");
 
     resources->load(filenames);
 

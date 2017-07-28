@@ -11,7 +11,7 @@ add_subdirectory(test)
 
 find_package(Qt5Widgets REQUIRED)
 
-set(SOURCE_FILES main.cpp Observer.h Subject.h File.cpp File.h LoadResources.cpp LoadResources.h MainWindow.cpp MainWindow.h)
+set(SOURCE_FILES main.cpp Observer.h Subject.h File.cpp File.h LoadResources.cpp LoadResources.h MainWindow.cpp MainWindow.h ConcreteObserver.h)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "/Users/mircoceccarelli/ClionProjects/EsLaboratorio/risorse")
 add_executable(EsLaboratorio main.cpp)
 add_library(core ${SOURCE_FILES})

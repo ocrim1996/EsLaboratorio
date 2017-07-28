@@ -3,20 +3,22 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Observer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/TestObserver.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/runAllTests.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/TestLoadResources.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/src/gtest_main.cc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/src/gtest-all.cc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/lib/googletest/cmake/internal_utils.cmake" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/TestLoadResources.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/test/runAllTests.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test/TestFile.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoadResources.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Subject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LoadResources.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MainWindow.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/File.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ConcreteObserver.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/File.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MainWindow.h" isTestSource="false" />
